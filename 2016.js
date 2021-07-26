@@ -11,6 +11,8 @@
 // a	b	result
 // 5	24	"TUE"
 
+// 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
 function solution(a, b) {
     var answer = '';   
     let sum = 0;
