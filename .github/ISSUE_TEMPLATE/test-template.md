@@ -1,0 +1,17 @@
+---
+name: TEST TEMPLATE
+about: test template
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+## 개요
+내용을 적어주세요.
+
+## 작업사항
+- 내용을 적어주세요.
+
+## 주의사항
+- 내용을 적어주세요.
