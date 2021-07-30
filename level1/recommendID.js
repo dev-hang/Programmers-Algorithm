@@ -138,3 +138,5 @@ function solution(new_id) {
 
     return id;
 }
+
+// *** 나중에는 정규식을 사용해서 풀어볼 것
