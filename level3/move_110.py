@@ -4,10 +4,15 @@ def move_110(s):
     for num in s:
         stack, cnt = [], 0
         for i in range(len(num)):
-            stack.append(num[i])
-            if len(stack) >= 3 and stack[-3:] == ['1', '1', '0']:
-                stack = stack[:-3]
-                cnt += 1
+            if num[i] == '0':
+                if len(stack) >= 2 and stack[-2] == '1' and stack[-1] == '1':
+                    stack.pop()
+                    stack.pop()
+                    cnt += 1
+                else:
+                    stack.append(num[i])
+            else:
+                stack.append(num[i])
 
         stack = ''.join(stack[::-1])
         idx = stack.find('0')
